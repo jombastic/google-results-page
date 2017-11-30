@@ -4,11 +4,42 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>build this website</title>
+    <title>build this webpage</title>
   </head>
   <body>
     <div class="container-fluid">
-      
+      <div id="header">
+        <div class="row" id="first-layer">
+          <div class="col-xs-1">
+            <img src="img/google.png" alt="google logo" />
+          </div>
+
+          <div class="col-xs-5">
+            <form>
+              <div class="form-group has-feedback">
+                <label class="control-label sr-only" for="searchGoogle" >Google</label>
+                <input type="search" class="form-control" id="searchGoogle" aria-describedby="searchInput" />
+                <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+                <span id="searchInput" class="sr-only">(search)</span>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-xs-2 col-xs-offset-4" id="glyphicons">
+            <ul>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-th" aria-hidden="true"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

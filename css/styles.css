@@ -1,0 +1,29 @@
+#first-layer {
+  padding-top: 20px;
+}
+
+#first-layer form {
+  padding-left: 15px;
+}
+
+#first-layer img {
+  width: 120px;
+  height: 44px;
+}
+
+#first-layer ul {
+  margin-top: 8px;
+}
+
+#first-layer ul li {
+  display: inline;
+  padding: 10px;
+}
+
+#first-layer form {
+  margin-top: 4px;
+}
+
+#glyphicons {
+  padding: 0 0 0 50px;
+}
