@@ -48,7 +48,7 @@ ul li {
   color: #838384;
 }
 
-#second-layer li a:hover {
+#second-layer a:hover, .footers a:hover {
   text-decoration: none;
 }
 
@@ -57,11 +57,11 @@ ul li {
   font-weight: bold;
 }
 
-#second-layer a, #glyphicons a {
+#second-layer a, #glyphicons a, #location-menu a, #macedonia, #second-footer a {
   color: #838384;
 }
 
-#second-layer a:hover, #glyphicons a:hover {
+#second-layer a:hover, #glyphicons a:hover, #location-menu a:hover, #second-footer a:hover {
   color: #303030;
 }
 
@@ -135,4 +135,28 @@ ul li {
 #number-links ul li {
   padding: 5px;
   font-size: small;
+}
+
+#footer {
+  border-top: 1px solid #bababa;
+  background-color: #f7f7f7;
+}
+
+#first-footer {
+  padding-left: 55px;
+  border-bottom: 1px solid #bababa;
+}
+
+.footers {
+  padding: 10px 0;
+}
+
+#macedonia {
+  border-right: 0.5px solid #bababa;
+  padding-right: 10px;
+}
+
+#location {
+  padding-left: 5px;
+  color: #bcbcbc;
 }
