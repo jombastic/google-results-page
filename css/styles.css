@@ -102,8 +102,8 @@ ul li {
 }
 
 #results {
-  border: 1px solid black;
   padding-left: 55px;
+  padding-bottom: 15px;
 }
 
 .content h3 {
@@ -125,4 +125,14 @@ ul li {
 
 #links a {
   font-weight: bold;
+}
+
+#number-links ul {
+
+  padding-left: 23px;
+}
+
+#number-links ul li {
+  padding: 5px;
+  font-size: small;
 }
