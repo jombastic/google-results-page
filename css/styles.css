@@ -1,3 +1,7 @@
+.container-fluid {
+  padding: 0;
+}
+
 #first-layer {
   padding-top: 20px;
 }
@@ -9,6 +13,7 @@
 #first-layer img {
   width: 120px;
   height: 44px;
+
 }
 
 #first-layer ul {
@@ -26,4 +31,49 @@
 
 #glyphicons {
   padding: 0 0 0 50px;
+}
+
+#second-layer {
+  margin-top: 8px;
+}
+
+#second-layer > .col-xs-5 {
+  padding-left: 0;
+}
+
+#second-layer ul li {
+  display: inline;
+  padding: 10px;
+  color: #838384;
+}
+
+#second-layer li a:hover {
+  text-decoration: none;
+}
+
+#second-layer li#active {
+  border-bottom: 3px solid #4286f4;
+  font-weight: bold;
+}
+
+#second-layer a, #glyphicons a {
+  color: #838384;
+}
+
+#second-layer a:hover, #glyphicons a:hover {
+  color: #303030;
+}
+
+#second-layer #active a {
+  color: #4286f4;
+}
+
+#right-menu {
+  margin-left: 60px;
+}
+
+#header {
+  border-bottom: 1px solid #bababa;
+  background-color: #f7f7f7;
+  padding-left: 10px;
 }
